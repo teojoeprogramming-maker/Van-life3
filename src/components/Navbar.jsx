@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 function Navbar(){
   return(
     <div id='Navbar'>
-      <a href='/' id='VANLIFELink'>#VANLIFE</a>
-      <a href='/about' id='aboutNavbarLink'>About</a>
-      <a href='/vans' id='vansLink'>Vans</a>
+      <Link to='/' id='VANLIFELink'>#VANLIFE</Link>
+      <Link to='/about' id='aboutNavbarLink'>About</Link>
+      <Link to='/vans' id='vansLink'>Vans</Link>
     </div>
   );
 }
