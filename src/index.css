@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
 }
@@ -40,7 +41,7 @@
 
 #imageDiv{
     position: relative;
-    background-image: url('react-routing/src/imgs/image.png');
+    background-image: url("./imgs/image.png");
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -99,8 +100,7 @@
 }
 
 #Juli{
-    background-image: url('react-routing/src/imgs/43C2D003-E559-48E9-AD14-7CDDAD45EE67_1_201_a.heic');
-    background-size: cover;
+    background-image: url("./imgs/43C2D003-E559-48E9-AD14-7CDDAD45EE67_1_201_a.heic");    background-size: cover;
     background-position: center;
     height: 500px;
     margin-left: 5px;

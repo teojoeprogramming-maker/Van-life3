@@ -1,6 +1,5 @@
-import Navbar from '/Users/superteo/Library/Mobile Documents/com~apple~CloudDocs/ReactRouter/react-routing/src/components/Navbar.jsx'
-import Footer from '/Users/superteo/Library/Mobile Documents/com~apple~CloudDocs/ReactRouter/react-routing/src/components/Footer.jsx'
-
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function About(){
   return(
